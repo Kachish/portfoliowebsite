@@ -1,0 +1,74 @@
+/* Base Styles */
+:root {
+    --primary: #0D6EFD;
+    --secondary: #F4F4F4;
+    --accent: #F29F05;
+    --dark: #222222;
+    --text: #555555;
+    --shadow-glow: rgba(13, 110, 253, 0.6);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text);
+    transition: background-color 0.3s ease;
+}
+
+h1, h2, h3, .btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.btn {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dark {
+    background-color: var(--dark);
+    color: var(--secondary);
+}
+
+.light {
+    background-color: white;
+    color: var(--text);
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Section Spacing */
+section {
+    padding: 5rem 0;
+}
+
+/* Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
