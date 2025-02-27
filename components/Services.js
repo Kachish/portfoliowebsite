@@ -29,7 +29,7 @@ function Services() {
 
         const handleBookNow = (service) => {
             const message = `Hi Omar, I'm interested in your ${service.title} services.`;
-            window.open(`https://wa.me/+254700000000?text=${encodeURIComponent(message)}`, '_blank');
+            window.open(`https://wa.me/+254725409996?text=${encodeURIComponent(message)}`, '_blank');
         };
 
         return (
