@@ -72,7 +72,7 @@ function Hero() {
                                 Hire Me
                             </a>
                             <a
-                                href="https://wa.me/+254700000000"
+                                href="https://wa.me/+254725409996"
                                 data-name="whatsapp-button"
                                 target="_blank"
                                 rel="noopener noreferrer"
