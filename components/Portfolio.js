@@ -1,117 +1,75 @@
+import { Globe2 } from "lucide-react"; // Assuming you're using lucide-react for icons
+
 function Portfolio() {
     try {
         const [filter, setFilter] = React.useState('all');
         const projects = [
-            // Web Development Projects
             {
                 id: 1,
-                title: 'Transs Limited Website',
+                title: 'Omar Konde Portfolio',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Business website promoting digital services.',
-                link: '#'
+                icon: <Globe2 size={48} />,
+                description: 'My personal portfolio website.',
+                link: 'https://omar-konde-portfolio-website.netlify.app/',
             },
             {
                 id: 2,
-                title: 'Forex Trading Signals Website',
+                title: 'Ekistar Podcast Site',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Landing page for Forex trading services.',
-                link: '#'
+                icon: <Globe2 size={48} />,
+                description: 'Podcast platform for Ekistar.',
+                link: 'https://ekistar-podcast.netlify.app/',
             },
             {
                 id: 3,
-                title: 'Startup Business Website',
+                title: 'Soit Sugar Website',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Online business promotional platform.',
-                link: '#'
+                icon: <Globe2 size={48} />,
+                description: 'Informational site for Soit Sugar.',
+                link: 'https://soit-sugar.netlify.app/',
             },
             {
                 id: 4,
-                title: 'Business Portfolio Website',
+                title: 'Wanjiru Kareithi Official',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Personal brand portfolio.',
-                link: '#'
+                icon: <Globe2 size={48} />,
+                description: 'Professional portfolio website.',
+                link: 'https://www.wanjirukareithi.com/',
             },
-            // Virtual Assistance Projects
             {
                 id: 5,
-                title: 'Calendar & Email Management',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Streamlined email and schedule management.',
-                link: '#'
+                title: 'Peter Chuwa Portfolio',
+                category: 'web',
+                icon: <Globe2 size={48} />,
+                description: 'Creative portfolio for Peter Chuwa.',
+                link: 'https://peter-chuwa.netlify.app/',
             },
             {
                 id: 6,
-                title: 'Travel & Booking Coordination',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Seamless flight and hotel booking for clients.',
-                link: '#'
+                title: 'Collins Portfolio',
+                category: 'web',
+                icon: <Globe2 size={48} />,
+                description: 'Professional portfolio site for Collins.',
+                link: 'https://collins-portfolio-web.netlify.app/',
             },
             {
                 id: 7,
-                title: 'Lead Generation & Research',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Market research and business leads generation.',
-                link: '#'
+                title: 'Client Testimonials Site',
+                category: 'web',
+                icon: <Globe2 size={48} />,
+                description: 'Testimonial and feedback platform.',
+                link: 'https://omar-testimonials.netlify.app/',
             },
-            {
-                id: 8,
-                title: 'Social Media Content Scheduling',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Content planning and scheduling with Canva and Buffer.',
-                link: '#'
-            },
-            // Data Analysis Projects
-            {
-                id: 9,
-                title: 'Sales Data Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Revenue trends analysis using Excel.',
-                link: '#'
-            },
-            {
-                id: 10,
-                title: 'Customer Churn Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Predictive analysis with Power BI.',
-                link: '#'
-            },
-            {
-                id: 11,
-                title: 'Market Research Data Visualization',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Customer preference insights using Tableau.',
-                link: '#'
-            },
-            {
-                id: 12,
-                title: 'Inventory Data Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Automated reports for stock management using Power BI.',
-                link: '#'
-            }
         ];
 
-        const filteredProjects = filter === 'all' 
-            ? projects 
-            : projects.filter(project => project.category === filter);
+        const filteredProjects =
+            filter === 'all' ? projects : projects.filter((project) => project.category === filter);
 
         return (
             <section id="portfolio" data-name="portfolio-section" className="py-20">
                 <div className="container mx-auto px-4">
                     <h2 className="text-4xl font-bold text-center mb-12">My Portfolio</h2>
-                    
+
                     <div className="flex justify-center space-x-4 mb-8">
                         <button
                             onClick={() => setFilter('all')}
@@ -125,32 +83,17 @@ function Portfolio() {
                         >
                             Web Dev
                         </button>
-                        <button
-                            onClick={() => setFilter('va')}
-                            className={`px-4 py-2 rounded ${filter === 'va' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'}`}
-                        >
-                            Virtual Assistant
-                        </button>
-                        <button
-                            onClick={() => setFilter('data')}
-                            className={`px-4 py-2 rounded ${filter === 'data' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'}`}
-                        >
-                            Data Analysis
-                        </button>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {filteredProjects.map(project => (
+                        {filteredProjects.map((project) => (
                             <div
                                 key={project.id}
-                                data-name={`portfolio-item-${project.id}`}
                                 className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                             >
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-48 object-cover"
-                                />
+                                <div className="flex items-center justify-center h-48 bg-gray-100 dark:bg-gray-700">
+                                    {project.icon}
+                                </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                                     <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
