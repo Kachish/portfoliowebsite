@@ -5,101 +5,59 @@ function Portfolio() {
             // Web Development Projects
             {
                 id: 1,
-                title: 'Transs Limited Website',
+                title: 'Omar Konde Portfolio',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Business website promoting digital services.',
-                link: '#'
+                image: 'https://cdn-icons-png.flaticon.com/512/1006/1006363.png', // Website icon
+                description: 'Portfolio website for a professional.',
+                link: 'https://omar-konde-portfolio-website.netlify.app/'
             },
             {
                 id: 2,
-                title: 'Forex Trading Signals Website',
+                title: 'Ekistar Podcast',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Landing page for Forex trading services.',
-                link: '#'
+                image: 'https://cdn-icons-png.flaticon.com/512/2452/2452499.png', // Podcast icon
+                description: 'Podcast platform website.',
+                link: 'https://ekistar-podcast.netlify.app/'
             },
             {
                 id: 3,
-                title: 'Startup Business Website',
+                title: 'Soit Sugar',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Online business promotional platform.',
-                link: '#'
+                image: 'https://cdn-icons-png.flaticon.com/512/3081/3081559.png', // Business icon
+                description: 'Business website for Soit Sugar.',
+                link: 'https://soit-sugar.netlify.app/'
             },
             {
                 id: 4,
-                title: 'Business Portfolio Website',
+                title: 'Wanjiru Kareithi',
                 category: 'web',
-                image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Personal brand portfolio.',
-                link: '#'
+                image: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png', // Personal website icon
+                description: 'Personal portfolio website.',
+                link: 'https://www.wanjirukareithi.com/'
             },
-            // Virtual Assistance Projects
             {
                 id: 5,
-                title: 'Calendar & Email Management',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Streamlined email and schedule management.',
-                link: '#'
+                title: 'Peter Chuwa',
+                category: 'web',
+                image: 'https://cdn-icons-png.flaticon.com/512/3135/3135715.png', // Personal website icon
+                description: 'Portfolio website for Peter Chuwa.',
+                link: 'https://peter-chuwa.netlify.app/'
             },
             {
                 id: 6,
-                title: 'Travel & Booking Coordination',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Seamless flight and hotel booking for clients.',
-                link: '#'
+                title: 'Collins Portfolio',
+                category: 'web',
+                image: 'https://cdn-icons-png.flaticon.com/512/1006/1006363.png', // Portfolio icon
+                description: 'Professional portfolio website.',
+                link: 'https://collins-portfolio-web.netlify.app/'
             },
             {
                 id: 7,
-                title: 'Lead Generation & Research',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Market research and business leads generation.',
-                link: '#'
-            },
-            {
-                id: 8,
-                title: 'Social Media Content Scheduling',
-                category: 'va',
-                image: 'https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Content planning and scheduling with Canva and Buffer.',
-                link: '#'
-            },
-            // Data Analysis Projects
-            {
-                id: 9,
-                title: 'Sales Data Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Revenue trends analysis using Excel.',
-                link: '#'
-            },
-            {
-                id: 10,
-                title: 'Customer Churn Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Predictive analysis with Power BI.',
-                link: '#'
-            },
-            {
-                id: 11,
-                title: 'Market Research Data Visualization',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Customer preference insights using Tableau.',
-                link: '#'
-            },
-            {
-                id: 12,
-                title: 'Inventory Data Analysis',
-                category: 'data',
-                image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                description: 'Automated reports for stock management using Power BI.',
-                link: '#'
+                title: 'Testimonials Page',
+                category: 'web',
+                image: 'https://cdn-icons-png.flaticon.com/512/3174/3174778.png', // Testimonial icon
+                description: 'Client testimonials showcase.',
+                link: 'https://omar-testimonials.netlify.app/'
             }
         ];
 
@@ -146,11 +104,13 @@ function Portfolio() {
                                 data-name={`portfolio-item-${project.id}`}
                                 className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow"
                             >
-                                <img
-                                    src={project.image}
-                                    alt={project.title}
-                                    className="w-full h-48 object-cover"
-                                />
+                                <div className="flex justify-center items-center h-48 bg-gray-100 dark:bg-gray-700">
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        className="w-24 h-24 object-contain"
+                                    />
+                                </div>
                                 <div className="p-6">
                                     <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                                     <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
